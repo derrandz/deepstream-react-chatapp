@@ -1,0 +1,17 @@
+.to-left {
+    float: left;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+p.text-muted.small-text {
+    padding: 0px
+}
+
+.panel-footer {
+    text-align: right !important;
+    padding-right: 5px;
+    padding-top: 1px;
+}

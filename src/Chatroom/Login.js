@@ -7,18 +7,18 @@ const Login = function ({ username, onLogin, onInput}) {
       <div className="presentational-login">
         <Row> <br/> </Row>
         <Row>
-          <Col lg="8" lgOffset="2">
+          <Col lg={8} lgOffset={2}>
             <p>Enter your username to login</p>
           </Col>
         </Row>
         <Row>
-          <Col lg="8" lgOffset="2">
+          <Col lg={8} lgOffset={2}>
             <FormControl className="" value={username} type="text" placeholder="Normal text" onChange={onInput} />
           </Col>
         </Row>
         <Row> <br /> </Row>
         <Row>
-          <Col lg="12">
+          <Col lg={12}>
             <Button bsStyle="primary" onClick={onLogin}>Login</Button>
           </Col>
         </Row>
@@ -27,8 +27,8 @@ const Login = function ({ username, onLogin, onInput}) {
 }
 
 Login.propTypes = {
-    username: PropTypes.string.isRequired,
-    onLogin: PropTypes.func.isRequired
+  username: PropTypes.string.isRequired,
+  onLogin: PropTypes.func.isRequired
 }
 
 export default Login
