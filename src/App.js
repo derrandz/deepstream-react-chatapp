@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 import Chatroom from './Chatroom'
 import {Grid, Row, Col} from 'react-bootstrap'
 
-import logo from './logo.svg';
-import './App.css';
+import eltonSquare from './elton-square.gif'
+import './App.css'
 
 class App extends Component {
   async deepstreamLogin ({ username, password }) {
@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={eltonSquare} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <Grid>
